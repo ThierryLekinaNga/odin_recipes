@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(239, 206, 163);
+}
+
+.home,
+.recipe,
+img {
+    margin: 0 auto;
+}
+
+.home {
+    width: 800px;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.home,
+.recipe {
+    background-color: rgb(244, 125, 82);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.home ul li {
+    list-style-type: none;  
+}
+
+.home h1 {
+    font-size: 40px;
+}
+.home,
+img {
+    height: 300px;
+}
+
+img {
+    display: block;
+    width: 300px;
+}
+
+.recipe {
+    width: 1000px;
+}
+
+.recipe-name,
+.home {
+    text-align: center;
+}
+
+.recipe,
+.recipe-name,
+.description,
+.ingredients,
+.steps,
+.home h1,
+img {
+    margin-bottom: 10px;
+}
+
+.headers,
+.ingredients ul li::marker,
+.steps ol li::marker,
+a {
+     color: rgb(239, 206, 163);
+}
+
+.description p,
+.ingredients ul li,
+.steps ol li {
+    padding: 8px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.recipe,
+.recipe-name,
+.description,
+.ingredients,
+.steps,
+.headers,
+.home h1,
+a {
+    padding: 10px;
+}
