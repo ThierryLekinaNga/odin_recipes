@@ -38,7 +38,7 @@ a {
 }
 
 .home ul li {
-    list-style-type: none;  
+    list-style-type: none; 
 }
 
 .home h1 {
@@ -52,6 +52,11 @@ img {
 img {
     display: block;
     width: 300px;
+}
+
+.recipe a,
+img {
+    margin-bottom: 10px;
 }
 
 .recipe {
@@ -68,9 +73,8 @@ img {
 .description,
 .ingredients,
 .steps,
-.home h1,
-img {
-    margin-bottom: 10px;
+.home h1 {
+    margin-bottom: -10px;
 }
 
 .headers,
